@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1 id="main-title">Welcome to My Page</h1>
+    </header>
+
+    <nav>
+        <p>This is a simple nav bar</p>
+    </nav>
+
+    <main>
+        <section>
+            <p id="text">This text will change when you click the button below.</p>
+            <button onclick="changeText()">Change Text</button>
+        </section>
+
+        <section>
+            <button onclick="changeColor()">Change Background Color</button>
+        </section>
+
+        <section>
+            <button onclick="addParagraph()">Add Paragraph</button>
+            <button onclick="removeParagraph()">Remove Paragraph</button>
+            <div id="content-box"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 My Simple Page</p>
+    </footer>
+</body>
+</html>
